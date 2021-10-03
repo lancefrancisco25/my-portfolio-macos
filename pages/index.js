@@ -10,6 +10,7 @@ import Taskbarup from '../components/taskbarup'
 import Appdrawer from '../components/appdrawer'
 import Aboutme from '../components/aboutme/aboutme'
 import Question from '../components/questions/questions'
+import Preloader from '../components/preloader/preloader'
 
 
 function Index() {
@@ -142,6 +143,9 @@ function Index() {
 
   return (
     <div className={theme} onMouseMove={onMouseMoveDrag} onMouseUp={mouseup} ref={document} style={{width: '100vw', height: '100vh', position: 'relative'}}>
+      
+      <Preloader />
+
       <Taskbarup className={`${css.headerCont} `}/>
 
     <div className={css.appCont} onMouseDown={()=> zIndex(1)} ref={question} style={{display: 'none'}}>
