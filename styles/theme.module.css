@@ -1,0 +1,15 @@
+.dark{
+    --headColorBg : rgba(255, 255, 255, 0.1);
+    --headText: rgb(255, 255, 255);
+    --lightcolor: rgba(255, 255, 255, 0.79);
+    --translucentbg: rgba(0, 0, 0, 0.31);
+    --translucentbgDark: rgba(0, 0, 0, 0.6);
+    --borderSeparator: 0.871429px solid rgba(0, 0, 0, 0.54);
+    --themebackgroundmain: #272727;
+    
+}
+
+.light{
+    --headColorBg : rgba(0, 0, 0, 0.1);
+    --headText: rgb(0, 0, 0);
+}

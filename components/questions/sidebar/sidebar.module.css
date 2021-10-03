@@ -1,0 +1,87 @@
+.mainWrapper{
+    width: 316px;
+    border-right: var(--borderSeparator);
+    height: 100%;
+    min-width: 207px;
+}
+
+.tfb{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 10px 6px
+}
+
+.bellowTrafficCont{
+    padding: 38px 10px 10px;
+}
+
+.searchCont{
+    background: rgba(255, 255, 255, 0.05);
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    width: 100%;
+    height: 36px;
+    padding: 3px;
+}
+
+.searchCont input{
+    width: 100%; 
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bellowSearchSep{
+    border-top: var(--borderSeparator);
+    margin: 10px -10px;
+    padding: 10px;
+}
+
+.headsmall{
+    font-weight: 500;
+    font-size: 15px;  
+    color: var(--lightcolor);
+    padding:6px 10px;
+}
+
+.listCat{
+    list-style: none;
+}
+
+.listCatClick{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.listCatClick:hover{
+    background: rgba(255, 254, 254, 0.15);
+}
+
+.iconCat{
+    min-width: 30px;
+    min-height: 30px;
+    background-color: #4D9FFF;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    margin-right: 10px;
+    font-weight: 600;
+    position: relative;
+}
+
+.catName{
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,50 @@
+.appDrawerCont{
+    background: rgba(255, 255, 255, 0.1);    
+    border: 0.5px solid rgba(255, 255, 255, 0.26);
+    box-sizing: border-box;
+    backdrop-filter: blur(22px);
+    border-radius: 15px;
+    padding: 8px 10px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.iconimage{
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2EEEE 100%);
+    border-radius: 9px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.iconimage:hover{
+    transform: translateY(-4px)
+}
+
+.appCat{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dot{
+    background-color: transparent;
+    border-radius: 100%;
+    width: 4px;
+    height: 4px;
+    margin-top: 4px;
+    transform: scale(0);
+    transition: 0.2s;
+}
+
+.opened{
+    background-color: #ffffff;
+    transform: scale(1)
+}

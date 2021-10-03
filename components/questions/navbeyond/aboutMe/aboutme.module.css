@@ -1,0 +1,70 @@
+.paddingCont{
+    padding: 10px 23px;
+    /*overflow-y: scroll;
+    height: 100%;*/
+}
+
+.imageContRelativeBig{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.upperLeftText{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+
+.upperLeftText p{
+    color: var(--lightcolor);
+    font-size: 15px;
+}
+
+.upperLeftText h1{
+    color: var(--headText);
+    font-size: 30px;
+}
+
+.gradientBehindTextBg{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 31%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.Separate2Images{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    grid-column-gap: 5px;
+    margin-top: 5px;
+}
+
+.Separate2ImagesSmall{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    grid-column-gap: 5px;
+    margin-top: 5px;
+}
+
+.imageContDuo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden; 
+}
+
+.imageCont{
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    overflow: hidden;  
+    margin-top: 5px;
+}

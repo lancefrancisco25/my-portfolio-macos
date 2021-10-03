@@ -1,0 +1,66 @@
+.paddingCont{
+    margin-top: 30px;
+    padding: 20px 0;
+    border-top: 1px solid var(--lightcolorTranslucent);
+    /*overflow-y: scroll;
+    height: 100%;*/
+}
+
+.titleBold{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.iconApp{
+    min-width: 50px;
+    min-height: 50px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.appList{
+    display: flex;
+    align-items: center;
+}
+
+.detailsApp{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--lightcolorTranslucent);
+    padding: 14px 0;
+    margin-left: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.textDet h1{
+    font-size: 18px;
+    font-weight: 400;
+}
+.textDet p{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--lightcolor);
+}
+
+.visitCont{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10px;
+    padding: 8px 20px;
+    border-radius: 10rem;
+    background-color: var(--lightcolorTranslucent1);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+    min-width: 86px;
+}
+
+.visitCont a{
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4D9FFF;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+:root{
+    --headerHeight: 33px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.dark{
+    --headColorBg : rgba(255, 255, 255, 0.1);
+    --headText: rgb(255, 255, 255);
+    --lightcolor: rgba(255, 255, 255, 0.79);
+    --lightcolorTranslucent: rgba(255, 255, 255, 0.2);
+    --lightcolorTranslucent1: rgba(255, 255, 255, 0.10);
+    --translucentbg: rgba(0, 0, 0, 0.31);
+    --translucentbgDark: rgba(0, 0, 0, 0.6);
+    --borderSeparator: 0.871429px solid rgba(0, 0, 0, 0.54);
+    --themebackgroundmain: #222325    ;
+    
+}
+
+.light{
+    --headColorBg : rgba(0, 0, 0, 0.1);
+    --headText: rgb(0, 0, 0);
+}
+
+.simplebar-scrollbar::before {
+    background-color: var(--lightcolor) !important;
+}
+
+.simplebar-track.simplebar-vertical{
+    margin-right: 5px;
+}

@@ -1,0 +1,12 @@
+.pc{
+    display: flex;
+    align-items: center;
+}
+
+.click{
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    border-radius: 4rem;
+    cursor: pointer;
+}

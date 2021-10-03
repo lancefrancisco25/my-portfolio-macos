@@ -1,0 +1,40 @@
+.background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    -webkit-user-drag: none;
+}
+
+.headerCont{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.relativebg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.Appdrawer{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s transform;
+    transform-origin: left bottom;
+    z-index: 110;
+}
+
+.appCont{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    transform-origin: left top;
+    transition: 0.3s;
+}

@@ -1,0 +1,41 @@
+.paddingCont{
+    padding: 10px 23px;
+    /*overflow-y: scroll;
+    height: 100%;*/
+}
+
+.imageContRelativeBig{
+    width: 100%;
+    height: 18rem;
+    position: relative;
+    overflow: hidden;
+    border-radius:10px;
+    margin-bottom: 10px;
+}
+
+.upperLeftText{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+
+.upperLeftText p{
+    color: var(--lightcolor);
+    font-size: 15px;
+}
+
+.upperLeftText h1{
+    color: var(--headText);
+    font-size: 30px;
+}
+
+.gradientBehindTextBg{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 10%, rgba(0,0,0,0) 40%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}

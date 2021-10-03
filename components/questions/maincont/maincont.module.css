@@ -1,0 +1,30 @@
+.mainContWidth{
+    width: 100%;
+    height: 100%;
+    background-color: var(--themebackgroundmain);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.HeaderCat{
+    border-bottom: 0.871429px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    font-weight: 500;
+    position: relative;
+    justify-content: center;
+}
+
+.clickDrag{
+    position: absolute;
+    cursor: grab;
+    width: 100%;
+    height: 100%;
+}
+
+.clickDrag:active {
+    cursor: grabbing;
+}
