@@ -10,12 +10,14 @@ function preloader() {
         clickStart.current.style.opacity = '0';
         setTimeout(()=>{
             clickStart.current.style.display = 'none';
+            mainCont.current.style.cursor = 'none'
             video.current.play();
         }, 510)
     }
     useEffect(()=>{
         video.current.onended = function() {
             mainCont.current.style.display = 'none';
+            mainCont.current.style.cursor = 'initial'
         };
     })
 
@@ -25,7 +27,7 @@ function preloader() {
                 <h1>Press anywhere to start</h1>
             </div>
             <div className={css.videoCont}>
-                <video ref={video} style={{width: '100%', height: '100%', objectFit: 'cover'}} src="https://res.cloudinary.com/duw2s4w0s/video/upload/v1633263036/macos_wallpaper_2_enuuqh.mp4" playsinline/> 
+                <video ref={video} style={{width: '100%', height: '100%', objectFit: 'cover'}} src="https://res.cloudinary.com/duw2s4w0s/video/upload/v1633263036/macos_wallpaper_2_enuuqh.mp4" playsInline/> 
             </div>
         </div>
     )
