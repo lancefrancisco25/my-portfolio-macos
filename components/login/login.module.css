@@ -1,0 +1,83 @@
+.zIndex{
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    -webkit-user-drag: none;
+    transition: 1.6s;
+}
+
+.profileCont{
+    min-height: 175px;
+    min-width: 175px;
+    height: 175px;
+    width: 175px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100rem;
+}
+
+.relativebg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.loginCont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titlePort{
+    font-weight: 500;
+    font-size: 23px;
+    color: #fff;
+    margin-top: 20px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.buttonEnter{
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(9px);
+    border-radius: 55px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 7px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buttonEnter:hover{
+    transform: translateY(-3px) scale(1.03);
+}
+
+.details{
+    font-weight: 500;
+    font-size: 16px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: 5%;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}

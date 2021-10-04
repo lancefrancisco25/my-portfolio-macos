@@ -6,6 +6,7 @@
     left:0;
     z-index: 200;
     background-color: black;
+    transition: opacity 0.2s;
 }
 
 .video{

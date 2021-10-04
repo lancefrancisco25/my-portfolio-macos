@@ -1,9 +1,8 @@
-import {useRef, useEffect, useState} from 'react'
+import {useRef, useState} from 'react'
 import Image from 'next/image'
 
 import wallpaper from '../public/dk-wall.jpg'
 
-import themeCss from '../styles/theme.module.css'
 import css from '../styles/Home.module.css'
 
 import Taskbarup from '../components/taskbarup'
