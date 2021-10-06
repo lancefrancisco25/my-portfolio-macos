@@ -4,7 +4,7 @@
     backdrop-filter: blur(15px);
     padding: 0 20px;
     height: var(--headerHeight);
-    z-index: 5;
+    z-index: 10;
     position: absolute;
 }
 
