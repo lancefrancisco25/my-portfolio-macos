@@ -1,7 +1,7 @@
 import css from "./taskbarup.module.css"
 import React, { useState, useEffect } from 'react';
 import Togglesvg from './icons/toggle'
-import AppleLogo from './icons/apple'
+import AppleLogo from './icons/lflogo'
 
 function Taskbarup() {
 

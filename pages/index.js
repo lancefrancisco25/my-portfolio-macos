@@ -15,7 +15,7 @@ import Preloader from '../components/preloader/preloader'
 
 function Index() {
   const document = useRef(null)
-
+  const headerH = 33;
   const [open, setOpen] = useState([false, false, false]);
   const [mini, setMini] = useState([false, false, false]);
   const [miniPos, setMiniPos] = useState({0: [false], 1: [false], 2: [false]});
@@ -127,8 +127,8 @@ function Index() {
         element.style.left = leftForm + 'px';
       }
 
-      if(trueheight <= 0){
-        element.style.top = element.offsetHeight / 2  + 'px';
+      if(trueheight - headerH <= 0){
+        element.style.top = ((element.offsetHeight / 2)+ headerH)  + 'px';
         onDown.firstElementPos[0] = element.offsetTop;
         onDown.pageY = e.pageY
       }else if(trueheight > document.current.offsetHeight - element.offsetHeight ){

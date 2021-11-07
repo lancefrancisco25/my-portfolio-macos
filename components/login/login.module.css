@@ -67,7 +67,7 @@
 }
 
 .buttonEnter:hover{
-    transform: translateY(-3px) scale(1.03);
+    transform: scale(1.03);
 }
 
 .details{
@@ -80,4 +80,13 @@
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
+}
+
+.quickStart{
+    color: #ffffff;
+    padding: 7px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 8px;
 }

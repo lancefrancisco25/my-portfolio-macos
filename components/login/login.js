@@ -29,9 +29,10 @@ function login({click, endy}) {
 
                     <h1 className={css.titlePort}>Lance Franciscos Website</h1>
 
-                    <div className={css.buttonEnter} onClick={end}>
-                        <p>Click to Enter</p>
+                    <div className={css.buttonEnter}>
+                        <p>Quick Start</p>
                     </div>
+                    <p className={css.quickStart} onClick={end}>Enter</p>
                 </div>
             </div>
 
